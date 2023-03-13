@@ -21,7 +21,7 @@ def index_page():
 @app.post("/login")
 def process_login_page(
     username : str = Form(...), 
-    password : str = Form(...)
+    password : str = Form(...),
     ):
     return Response(
         f"Твой логин: {username}, Твой пароль: {password}",
