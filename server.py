@@ -21,11 +21,6 @@ users = {
         "password": "bca84553457b14249cd577f0de4b46ab6502eb63d6dee3bccbf221c29b5d9b96",
         "balance": 555_555
     },
-    'alexandra_betsko@user.com': {
-        "name": "Александра",
-        "password": "7b9a361f8584da99cb0ed17c3205ff645738bb0a3c8135ad32818263865e9b93",
-        "balance": 1_000_000
-    }
 }
 
 SECRET_KEY = "c727ed77f2fd8ddbc99646dfd62420c241319506b56acad4e9c7cd5b0a35e644"
